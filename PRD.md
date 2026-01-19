@@ -24,7 +24,7 @@ Modern banking customers, particularly Gen-Z and Millennials, lack visibility in
 
 ## 3. User Stories (BA Framework)
 |  ID      | User Role       |        Requirement              |                        Benefit |
-
+| :--- | :--- | :--- | :--- |
 | **US.1** | Customer | View CO2e estimate for each transaction | Immediate visibility of environmental impact |
 | **US.2** | Customer | Access a monthly "Carbon Dashboard" | Identify spending patterns and trends |
 | **US.3** | Customer | One-click "Offset" button | Ability to neutralize footprint via green projects |
