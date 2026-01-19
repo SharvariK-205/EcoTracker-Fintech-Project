@@ -1,4 +1,4 @@
-# 🌍 Eco-Tracker: Fintech ESG Solution
+# Eco-Tracker: Fintech ESG Solution
 **A Data-Driven Framework for Sustainable Banking**
 
 ## 📖 Overview
@@ -6,7 +6,7 @@ The **Eco-Tracker** is a proposed feature for digital banking apps that allows u
 
 ---
 
-## 🧠 The Business Logic (How it Works)
+## The Business Logic (How it Works)
 To ensure the tracker is both accurate and scalable, I developed a logic flow based on the following steps:
 1. **Extraction:** Capture raw transaction data (Amount, Merchant Name, MCC).
 2. **Enrichment:** Map the MCC to a specific Carbon Factor (e.g., *Airline travel = 0.15kg CO2/$*).
@@ -17,7 +17,7 @@ To ensure the tracker is both accurate and scalable, I developed a logic flow ba
 
 ---
 
-## 🚀 Repository Structure & Artifacts
+## Repository Structure & Artifacts
 This repository serves as a full "Project in a Box" for a Business Analyst or Product Manager.
 
 * **[Product Strategy (PRD)](./PRD.md):** Defines the "Why." Includes market research, user personas, and the feature roadmap.
@@ -27,11 +27,11 @@ This repository serves as a full "Project in a Box" for a Business Analyst or Pr
 
 ---
 
-## 💻 Technical Setup (For Developers/BAs)
+## Technical Setup (For Developers/BAs)
 I have included a Python-based synthetic data engine to allow for immediate testing of the logic without using sensitive PII (Personally Identifiable Information).
 ![Carbon Dashboard](./chart_transactions.png)
 
-### 🛠️ Technical Toolkit
+### Technical Toolkit
 * **[Data Generation Script](./scripts/generate_data.py):** Python script using `Faker` to create 100+ privacy-safe transactions.
 * **[Data Visualization Script](./scripts/visualize_data.py):** Python script using `Pandas` and `Seaborn` to generate the Carbon Impact Report.
 * **[Carbon Dashboard](./carbon_dashboard.png):** The final visual output used for executive decision-making.
@@ -45,13 +45,13 @@ The script generates `data/transactions_synthetic.csv`, which contains 100+ simu
 
 ---
 
-## 💡 Key Skills Showcased
+## Key Skills Showcased
 * **Requirements Gathering:** Translating ESG goals into technical specs.
 * **Data Modeling:** Designing CSV schemas for environmental tracking.
 * **Python for BA:** Automating data generation for UAT (User Acceptance Testing).
 * **Stakeholder Management:** Communicating risk and vision via visual flowcharts.
 
-### 🛠️ Process Flow
+### Process Flow
 ```mermaid
 graph LR
     A[Transaction] --> B(Categorization)
