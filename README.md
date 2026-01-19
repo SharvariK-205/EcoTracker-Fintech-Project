@@ -31,6 +31,11 @@ This repository serves as a full "Project in a Box" for a Business Analyst or Pr
 I have included a Python-based synthetic data engine to allow for immediate testing of the logic without using sensitive PII (Personally Identifiable Information).
 ![Carbon Dashboard](./chart_transactions.png)
 
+### 🛠️ Technical Toolkit
+* **[Data Generation Script](./scripts/generate_data.py):** Python script using `Faker` to create 100+ privacy-safe transactions.
+* **[Data Visualization Script](./scripts/visualize_data.py):** Python script using `Pandas` and `Seaborn` to generate the Carbon Impact Report.
+* **[Carbon Dashboard](./carbon_dashboard.png):** The final visual output used for executive decision-making.
+
 ### 1. Generate the Data
 Ensure you have `pandas` and `faker` installed, then run:
 `python3 scripts/generate_data.py`
