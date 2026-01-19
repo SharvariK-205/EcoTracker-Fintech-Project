@@ -29,6 +29,7 @@ This repository serves as a full "Project in a Box" for a Business Analyst or Pr
 
 ## 💻 Technical Setup (For Developers/BAs)
 I have included a Python-based synthetic data engine to allow for immediate testing of the logic without using sensitive PII (Personally Identifiable Information).
+![Carbon Dashboard](./carbon_dashboard.png)
 
 ### 1. Generate the Data
 Ensure you have `pandas` and `faker` installed, then run:
